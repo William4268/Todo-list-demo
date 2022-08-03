@@ -215,7 +215,6 @@ function mergeSort(arr) {
   }
 }
 
-console.log(mergeSort(JSON.parse(localStorage.getItem("list"))));
 
 let sortButton = document.querySelector("div.sort button");
 sortButton.addEventListener("click", () => {
