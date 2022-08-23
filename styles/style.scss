@@ -145,5 +145,36 @@ div.sort {
                  transform: scale(0);
              }
         }
+
+        @media only screen and (max-width: 600px) {
+            /* for mobile phone:   */
+            [class*="col-"] {
+                width: 100%;
+            }
+        }
+        @media only screen and (min-width: 600px) {
+            /* for portrait tablets large mobile phone:   */
+            [class*="col-"] {
+                width: 100%;
+            }
+        }
+        @media only screen and (min-width: 768px) {
+            /* for mobile phone:   */
+            [class*="col-"] {
+                width: 100%;
+            }
+        }
+        @media only screen and (min-width: 992px) {
+            /* for mobile phone:   */
+            [class*="col-"] {
+                width: 100%;
+            }
+        }
+        @media only screen and (min-width: 1200px) {
+            /* for mobile phone:   */
+            [class*="col-"] {
+                width: 100%;
+            }
+        }
         
     

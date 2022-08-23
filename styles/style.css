@@ -36,12 +36,16 @@ form input, form select, form button {
   font-size: 1.75rem;
   margin: 0.1rem;
 }
+form input[type=number] {
+  width: 50px;
+  text-align: center;
+}
 form input::-webkit-outer-spin-button,
 form input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
-form input[type=text] {
+form input[type=number] {
   -moz-appearance: textfield;
 }
 form button {
@@ -135,5 +139,35 @@ div.sort button {
 @keyframes scaleDown {
   to {
     transform: scale(0);
+  }
+}
+@media only screen and (max-width: 600px) {
+  /* for mobile phone:   */
+  [class*=col-] {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 600px) {
+  /* for portrait tablets large mobile phone:   */
+  [class*=col-] {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 768px) {
+  /* for mobile phone:   */
+  [class*=col-] {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 992px) {
+  /* for mobile phone:   */
+  [class*=col-] {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  /* for mobile phone:   */
+  [class*=col-] {
+    width: 100%;
   }
 }/*# sourceMappingURL=style.css.map */
